@@ -29,6 +29,14 @@ body {
   line-height: 1.5;
   color: black;
 }
+.article {
+  width: calc(50% - 12px);
+  margin-right: 24px;
+  color: black;
+}
+.article:last-child {
+  margin-right: 0;
+}
 p {
   font-size: 1em;
   text-color: #ea83ee;
